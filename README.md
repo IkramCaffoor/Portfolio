@@ -3,7 +3,7 @@
 This repository contains the source code for my personal portfolio website, developed using HTML, CSS, and JavaScript.  
 The portfolio highlights my professional background, technical skills, and cybersecurity projects, providing an overview of my journey in ethical hacking, penetration testing, and digital security.
 
-**Live Site:** [ikramcaffoor.github.io/Portfolio](https://ikramcaffoor.github.io/Porfolio/)
+**Live Site:** [ikramcaffoor.github.io/Portfolio](https://ikramcaffoor.github.io/Portfolio/)
 
 ---
 
