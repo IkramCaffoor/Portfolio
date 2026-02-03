@@ -1,493 +1,545 @@
 <!DOCTYPE html>
 <html lang="en">
-     <head>
-
-
-   <meta charset="UFT-8">
-<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cybersecurity Portfolio - Ethical Hacker & Security Researcher">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-          <link rel="icon" type="image/png" href="portfo/images/pic-modified.png">
-
+    <link rel="icon" type="image/png" href="portfo/images/pic-modified.png">
+    <title>Ikram Caffoor | CyberSec Portfolio</title>
+</head>
+<body>
+    <!-- Scanline Effect -->
+    <div class="scanline"></div>
     
-
-    <title>My Portfolio</title>
-     </head>
-
-     <body>
-        <canvas id="network"></canvas>
-     
-    <script src="script.js" defer></script>
-
-        <video autoplay muted loop class="background-video">
-            <source src="portfo/images/video.mp4" type="video/mp4">
-            Your Browser dows not support the video tag
-        </video>
-        
-        
-        <div class="container">
-            <header>
-                <h1>IKRAM CAFFOOR</h1>
-                <div class="terminal">
-  <div class="terminal-bar">
-    <span class="red"></span>
-    <span class="yellow"></span>
-    <span class="green"></span>
-  </div>
-                    <pre class="typewriter"><b>Welcome to My Digital Space! </b> 
-I’m <b> ikram Cafoor </b> A cybersecurity enthusiast with a focus on red teaming, penetration testing, and CTF challenges. My journey revolves around exploring vulnerabilities, sharpening offensive security skills, and applying creativity to real-world problem-solving.
-I’m also passionate about OSINT, research, and continuous learning, always experimenting with tools, platforms, and methods to stay ahead in the ever-evolving cybersecurity landscape. Beyond technical skills, I bring the mindset of an athlete - discipline, strategy, and persistence - into my approach to ethical hacking.</pre>
-
-                </div>
-<hr>
-            </header>
-            
-
- 
-           <div class="nav-links">
-  <a href="#about">ABOUT ME</a>
-  <a href="#skills">SKILLS</a>
-  <a href="#certifcations">CERTIFICATIONS</a>
-  <a href="#writeups">WRITE-UPS</a>
-  <a href="#hobbies">HOBBIES</a>
-  <a href="#contact">CONTACT ME</a>
-</div>
-          
-<hr>
-
-        
-        <section id="about" class="about"> 
-       <h2> About Me <h2>
-        <p>I am a cybersecurity learner focused on both offensive and defensive security, with growing experience in penetration testing, red teaming, blue teaming, purple teaming, and open-source intelligence (OSINT).
-
-I actively sharpen my skills through hands-on labs, CTF challenges, and security exercises on platforms like Hack The Box and picoCTF, where I learn to think like both an attacker and a defender.
-
-My interests span across network security, threat intelligence, reverse engineering, and incident response. I aim to build a comprehensive understanding of attack methods and defense strategies, bridging the gap between offensive insights and defensive resilience. </p>
-        </section>
- 
-        <hr>
-        <section id="skills" class="skills">
-    <h2>Core Skills</h2>
-    
-    <ul>
-    
-            <li class="skill-item" data-target = "ethical-hacking-details">
-            <div class="skill-logos">
-                <img src="portfo/images/Kali-dragon-icon.svg.png" alt="Kali Linux" class="skill-icon">
-                <img src="portfo/images/4308347_93c7_3-removebg-preview.png" alt="Metasploit" class="skill-icon">
-                <img src="portfo/images/300px-Nmap-logo-removebg-preview.png" alt="Nmap" class="skill-icon">
+    <!-- Terminal Loading -->
+    <div class="terminal-loader" id="terminal-loader">
+        <div class="terminal-header">
+            <div class="terminal-title">DEDSEC_PORTFOLIO.exe</div>
+            <div class="terminal-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
             </div>
-            <span>Ethical Hacking & Penetration Testing</span>
-        </li>
-        <div id="ethical-hacking-details" class="skill-details hidden ethical-hacking-details-box">
-            <p>
-                Proficient in using Kali Linux for penetration testing, vulnerability assessment, and exploiting system weaknesses. Experience with tools like Metasploit, Nmap, and Wireshark.
-            </p>
         </div>
-
-        <li class="skill-item" data-target = "forensics-details">
-            <div class="skill-logos">
-                <img src="portfo/images/download (2).png" alt="Wireshark" class="skill-icon">
-                <img src="portfo/images/images-removebg-preview (1).png" alt="Autospy" class="skill-icon">
-                <img src="portfo/images/download-removebg-preview.png" alt="Snort" class="skill-icon">
+        <div class="terminal-body">
+            <p class="terminal-text">> Initializing Security Protocols...</p>
+            <p class="terminal-text">> Loading Cyber Interface...</p>
+            <p class="terminal-text">> Access Granted. Welcome, Ikram.</p>
+            <div class="progress-bar">
+                <div class="progress"></div>
             </div>
-            <span> Forensics & Blue Teaming Concepts</span>
-        </li>
-        <div id="forensics-details" class="skill-details hidden forensics-details-box">
-            <p>
-                Knowledgeable in digital forensics techniques, including data recovery, analysis of digital evidence, and incident response. Familiar with tools like Wireshark, Autopsy, and Snort for network monitoring and forensic investigations.
-            </p>
         </div>
-        
-        <li class="skill-item" data-target = "network-security-details">
-            <div class="skill-logos">
-                <img src="portfo/images/download__5_-removebg-preview.png" alt="Cisco" class="skill-icon">
-                <img src="portfo/images/download__1_-removebg-preview.png" alt="Crowdstrike" class="skill-icon">
-                <img src="portfo/images/download das.png" alt="Suricata" class="skill-icon">
-            </div>
-            <span>Network Security & Incident Response</span>
-        </li>
-        <div id="network-security-details" class="skill-details hidden network-security-details-box">
-            <p>
-                Proficient in network security protocols, firewall configuration, and intrusion detection systems. Experienced with tools like Cisco, Crowdstrike, and Suricata for monitoring and responding to security incidents.
-            </p>
-        </div>
-
-
-        <li class="skill-item" data-target = "programming-details">
-            <div class="skill-logos">
-                <img src="portfo/images/images__1_-removebg-preview (1).png" alt="C++/C" class="skill-icon">
-                <img src="portfo/images/Python-logo-notext.svg.png" alt="Python" class="skill-icon">
-                <img src="portfo/images/Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript" class="skill-icon">
-            </div>
-            <span>Programming Languages</span>
-        </li>
-        <div id="programming-details" class="skill-details hidden programming-details-box">
-            <p>
-                 Proficient in multiple programming languages, including C/C++, Python, and JavaScript. Experienced in writing scripts for automation and security tasks, as well as developing web applications.
-            </p>
-        </div>
-
-        <li class="skill-item" data-target = "websec-details">
-            <div class="skill-logos">
-                <img src="portfo/images/Bishop-Fox-Blog-Burp-Suite-removebg-preview.png" alt="Burp Suite" class="skill-icon">
-                <img src="portfo/images/images__1_-removebg-preview.png" alt="SQLI" class="skill-icon">
-                <img src="portfo/images/owasp_logo_icon_248268.png" alt="OWASP" class="skill-icon">
-            </div>
-            <span>Web Application Security</span>
-        </li>
-        
-            <div id="websec-details" class="skill-details hidden websec-details-box">
-            <p>
-                Experienced in identifying and mitigating web application vulnerabilities, including SQL injection, XSS, and CSRF. Familiar with OWASP Top 10 and tools like Burp Suite for security testing.               
-            </p>
-        </div>
-    </ul>
-</section>
-
-
-        <hr>
-
-<section id="certifcations" class="certifcations">
-        <h2>Certifications</h2>
-        <table class="cert-table">
-  <tr>
-    <th>Certification</th>
-    <th>Issuer</th>
-    <th>Year</th>
-    <th>View</th>
-  </tr>
-
-  <tr>
-    <td>Cyber Security & Ethical Hacking</td>
-    <td>CICRA Campus</td>
-    <td>2024</td>
-    <td><button class="view-cert" data-cert="portfo/certificates/CamScanner 04-25-2025 18.30.pdf">View</button></td>
-  </tr>
-
-  <tr>
-    <td>Linux 100 Fundamentals</td>
-    <td>TCM Security</td>
-    <td>2024</td>
-    <td><button class="view-cert" data-cert="portfo/certificates/1-practical-ethical-hacking-the-complete-course.pdf">View</button></td>
-  </tr>
-  
-  <tr>
-    <td>Coming soon</td>
-    <td>None</td>
-    <td>none</td>
-    <td><button class="view-cert" data-cert="">View</button></td>
-  </tr>
-
-
-        </table>
-</section>
-        <hr>
-
-         <section id="writeups" class="writeups">
-            <h2>Write-Ups</h2>
-  <p>No write-ups yet. Check back soon for my CTF and cybersecurity challenges!</p>
-</section>
-
-
-
-
-
-<hr>
-
-      <section id="hobbies" class="hobbies">
-    <h2>My Hobbies</h2>
-
-    <div class="hobby-category">
-
-        <div class="hobby">
-            <h3>Physical Hobbies</h3>
-            <ul class="details">
-                <li>Football: Playing since childhood helps maintain mental and physical fitness, and builds strong discipline</li>
-                <li>Running: Engaged in sprint and endurance training to improve stamina and focus</li>
-            </ul>
-        </div>
-
-        <div class="hobby">
-            <h3>Creative Hobbies</h3>
-            <ul class="details">
-                <li>Graphic Design & Video Editing: Creating content for school media unit and personal use</li>
-                <li>Web Design: Creating Website for school media unit and personal use</li>
-            </ul>
-        </div>
-
-        <div class="hobby">
-            <h3>Intellectual Hobbies</h3>
-            <ul class="details">
-                <li>CTF Challenges: Solving cybersecurity puzzles to enhance problem-solving and analytical thinking</li>
-                <li>Reading Cybersecurity Blogs: Staying updated on industry trends, vulnerabilities, and emerging threats</li>
-                <li>Programming: Writing Python scripts and exploring automation to strengthen coding skills</li>
-            </ul>
-        </div>
-
-    </div>
-</section>
-
-
-           <hr>
-
-        <section id="contact" class="contact">
-            <h2>Contact Me</h2>
-            <form action="https://api.web3forms.com/submit" method="POST">
-               <input type="hidden" name="access_key" value="d6cd5a66-7cf4-4dce-9a43-e2a55138683f">
-                <div class="form-group">
-                     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                    <label for="name"> ~ Name:</label>
-                    <input type="text" id="name" required placeholder="Enter your Name:">
-                </div>
-                <div class="form-group">
-                    <label for="email"> ~ Email: </label>
-                    <input type="email" id="email" required placeholder="Enter your Email:">
-                </div>
-                <div class="form-group">
-  <label for="country"> ~Country: </label>
-  <select id="country" name="country" required>
-    <option value="">Select Country</option>
-    <option value="af">Afghanistan</option>
-    <option value="al">Albania</option>
-    <option value="dz">Algeria</option>
-    <option value="ad">Andorra</option>
-    <option value="ao">Angola</option>
-    <option value="ag">Antigua and Barbuda</option>
-    <option value="ar">Argentina</option>
-    <option value="am">Armenia</option>
-    <option value="au">Australia</option>
-    <option value="at">Austria</option>
-    <option value="az">Azerbaijan</option>
-    <option value="bs">Bahamas</option>
-    <option value="bh">Bahrain</option>
-    <option value="bd">Bangladesh</option>
-    <option value="bb">Barbados</option>
-    <option value="by">Belarus</option>
-    <option value="be">Belgium</option>
-    <option value="bz">Belize</option>
-    <option value="bj">Benin</option>
-    <option value="bt">Bhutan</option>
-    <option value="bo">Bolivia</option>
-    <option value="ba">Bosnia and Herzegovina</option>
-    <option value="bw">Botswana</option>
-    <option value="br">Brazil</option>
-    <option value="bn">Brunei</option>
-    <option value="bg">Bulgaria</option>
-    <option value="bf">Burkina Faso</option>
-    <option value="bi">Burundi</option>
-    <option value="kh">Cambodia</option>
-    <option value="cm">Cameroon</option>
-    <option value="ca">Canada</option>
-    <option value="cv">Cape Verde</option>
-    <option value="cf">Central African Republic</option>
-    <option value="td">Chad</option>
-    <option value="cl">Chile</option>
-    <option value="cn">China</option>
-    <option value="co">Colombia</option>
-    <option value="km">Comoros</option>
-    <option value="cg">Congo</option>
-    <option value="cd">Congo (Democratic Republic)</option>
-    <option value="cr">Costa Rica</option>
-    <option value="ci">Côte d'Ivoire</option>
-    <option value="hr">Croatia</option>
-    <option value="cu">Cuba</option>
-    <option value="cy">Cyprus</option>
-    <option value="cz">Czech Republic</option>
-    <option value="dk">Denmark</option>
-    <option value="dj">Djibouti</option>
-    <option value="dm">Dominica</option>
-    <option value="do">Dominican Republic</option>
-    <option value="ec">Ecuador</option>
-    <option value="eg">Egypt</option>
-    <option value="sv">El Salvador</option>
-    <option value="gq">Equatorial Guinea</option>
-    <option value="er">Eritrea</option>
-    <option value="ee">Estonia</option>
-    <option value="sz">Eswatini</option>
-    <option value="et">Ethiopia</option>
-    <option value="fj">Fiji</option>
-    <option value="fi">Finland</option>
-    <option value="fr">France</option>
-    <option value="ga">Gabon</option>
-    <option value="gm">Gambia</option>
-    <option value="ge">Georgia</option>
-    <option value="de">Germany</option>
-    <option value="gh">Ghana</option>
-    <option value="gr">Greece</option>
-    <option value="gd">Grenada</option>
-    <option value="gt">Guatemala</option>
-    <option value="gn">Guinea</option>
-    <option value="gw">Guinea-Bissau</option>
-    <option value="gy">Guyana</option>
-    <option value="ht">Haiti</option>
-    <option value="hn">Honduras</option>
-    <option value="hu">Hungary</option>
-    <option value="is">Iceland</option>
-    <option value="in">India</option>
-    <option value="id">Indonesia</option>
-    <option value="ir">Iran</option>
-    <option value="iq">Iraq</option>
-    <option value="ie">Ireland</option>
-    <option value="il">Israel</option>
-    <option value="it">Italy</option>
-    <option value="jm">Jamaica</option>
-    <option value="jp">Japan</option>
-    <option value="jo">Jordan</option>
-    <option value="kz">Kazakhstan</option>
-    <option value="ke">Kenya</option>
-    <option value="ki">Kiribati</option>
-    <option value="kr">Korea (South)</option>
-    <option value="kp">Korea (North)</option>
-    <option value="kw">Kuwait</option>
-    <option value="kg">Kyrgyzstan</option>
-    <option value="la">Laos</option>
-    <option value="lv">Latvia</option>
-    <option value="lb">Lebanon</option>
-    <option value="ls">Lesotho</option>
-    <option value="lr">Liberia</option>
-    <option value="ly">Libya</option>
-    <option value="li">Liechtenstein</option>
-    <option value="lt">Lithuania</option>
-    <option value="lu">Luxembourg</option>
-    <option value="mg">Madagascar</option>
-    <option value="mw">Malawi</option>
-    <option value="my">Malaysia</option>
-    <option value="mv">Maldives</option>
-    <option value="ml">Mali</option>
-    <option value="mt">Malta</option>
-    <option value="mh">Marshall Islands</option>
-    <option value="mr">Mauritania</option>
-    <option value="mu">Mauritius</option>
-    <option value="mx">Mexico</option>
-    <option value="fm">Micronesia</option>
-    <option value="md">Moldova</option>
-    <option value="mc">Monaco</option>
-    <option value="mn">Mongolia</option>
-    <option value="me">Montenegro</option>
-    <option value="ma">Morocco</option>
-    <option value="mz">Mozambique</option>
-    <option value="mm">Myanmar</option>
-    <option value="na">Namibia</option>
-    <option value="nr">Nauru</option>
-    <option value="np">Nepal</option>
-    <option value="nl">Netherlands</option>
-    <option value="nz">New Zealand</option>
-    <option value="ni">Nicaragua</option>
-    <option value="ne">Niger</option>
-    <option value="ng">Nigeria</option>
-    <option value="mk">North Macedonia</option>
-    <option value="no">Norway</option>
-    <option value="om">Oman</option>
-    <option value="pk">Pakistan</option>
-    <option value="pw">Palau</option>
-    <option value="ps">Palestine</option>
-    <option value="pa">Panama</option>
-    <option value="pg">Papua New Guinea</option>
-    <option value="py">Paraguay</option>
-    <option value="pe">Peru</option>
-    <option value="ph">Philippines</option>
-    <option value="pl">Poland</option>
-    <option value="pt">Portugal</option>
-    <option value="qa">Qatar</option>
-    <option value="ro">Romania</option>
-    <option value="ru">Russia</option>
-    <option value="rw">Rwanda</option>
-    <option value="kn">Saint Kitts and Nevis</option>
-    <option value="lc">Saint Lucia</option>
-    <option value="vc">Saint Vincent and the Grenadines</option>
-    <option value="ws">Samoa</option>
-    <option value="sm">San Marino</option>
-    <option value="st">São Tomé and Príncipe</option>
-    <option value="sa">Saudi Arabia</option>
-    <option value="sn">Senegal</option>
-    <option value="rs">Serbia</option>
-    <option value="sc">Seychelles</option>
-    <option value="sl">Sierra Leone</option>
-    <option value="sg">Singapore</option>
-    <option value="sk">Slovakia</option>
-    <option value="si">Slovenia</option>
-    <option value="sb">Solomon Islands</option>
-    <option value="so">Somalia</option>
-    <option value="za">South Africa</option>
-    <option value="es">Spain</option>
-    <option value="lk">Sri Lanka</option>
-    <option value="sd">Sudan</option>
-    <option value="sr">Suriname</option>
-    <option value="se">Sweden</option>
-    <option value="ch">Switzerland</option>
-    <option value="sy">Syria</option>
-    <option value="tw">Taiwan</option>
-    <option value="tj">Tajikistan</option>
-    <option value="tz">Tanzania</option>
-    <option value="th">Thailand</option>
-    <option value="tl">Timor-Leste</option>
-    <option value="tg">Togo</option>
-    <option value="to">Tonga</option>
-    <option value="tt">Trinidad and Tobago</option>
-    <option value="tn">Tunisia</option>
-    <option value="tr">Turkey</option>
-    <option value="tm">Turkmenistan</option>
-    <option value="tv">Tuvalu</option>
-    <option value="ug">Uganda</option>
-    <option value="ua">Ukraine</option>
-    <option value="ae">United Arab Emirates</option>
-    <option value="gb">United Kingdom</option>
-    <option value="us">United States</option>
-    <option value="uy">Uruguay</option>
-    <option value="uz">Uzbekistan</option>
-    <option value="vu">Vanuatu</option>
-    <option value="va">Vatican City</option>
-    <option value="ve">Venezuela</option>
-    <option value="vn">Vietnam</option>
-    <option value="ye">Yemen</option>
-    <option value="zm">Zambia</option>
-    <option value="zw">Zimbabwe</option>
-  </select>
-</div>
-
-                                <div class="form-group full-width">
-                    <label for="message">~ Message:</label>
-                    <textarea id="message" rows="4" placeholder="Enter your message">
-
-                    </textarea>
-
-                 <div class="form-group full-width" style="display: flex; gap: 15px;">
-                    <button type="submit">Execute</button>
-                    <button type="reset">Clear</button>
-                </div>
-
-            </form>
-        </section>
-        <hr>       
-       
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-
-  <div class="social-links">
-    <a href="https://linkedin.com/in/ikramcafoor" target="_blank" class="linkedin">
-      <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
-    </a>
-
-    <a href="https://app.hackthebox.com/profile/2143373" target="_blank" class="hackthebox">
-      <i class="fas fa-terminal"></i> <span>HackTheBox</span>
-    </a>
-
-    <a href="https://github.com/IkramCaffoor" target="_blank" class="github">
-      <i class="fab fa-github"></i> <span>Github</span>
-    </a> 
-
-    <a href="portfo/images/MY.CV.pdf" target="_blank"  class="CV">
-         <i class="fas fa-file-alt"></i> <span>CV</span>
-    </a>
     </div>
 
-    <blockquote>Connect with me through Social Links</blockquote>
+    <!-- Background Canvas -->
+    <canvas id="matrixCanvas"></canvas>
+    <canvas id="networkCanvas"></canvas>
     
+    <!-- Glitch Text Effect -->
+    <div class="glitch-container">
+        <h1 class="glitch" data-text="IKRAM CAFFOOR">IKRAM CAFFOOR</h1>
+        <div class="subtitle">CYBERSECURITY RESEARCHER | PENETRATION TESTER | DEDSEC</div>
+    </div>
 
-    </body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="cyber-nav">
+            <div class="nav-grid">
+                <a href="#about" class="nav-item">
+                    <span class="nav-icon"><i class="fas fa-user-secret"></i></span>
+                    <span class="nav-text">ABOUT</span>
+                    <span class="nav-ping"></span>
+                </a>
+                <a href="#skills" class="nav-item">
+                    <span class="nav-icon"><i class="fas fa-terminal"></i></span>
+                    <span class="nav-text">SKILLS</span>
+                    <span class="nav-ping"></span>
+                </a>
+                <a href="#certifications" class="nav-item">
+                    <span class="nav-icon"><i class="fas fa-shield-alt"></i></span>
+                    <span class="nav-text">CERTIFICATIONS</span>
+                    <span class="nav-ping"></span>
+                </a>
+                <a href="#writeups" class="nav-item">
+                    <span class="nav-icon"><i class="fas fa-file-code"></i></span>
+                    <span class="nav-text">WRITE-UPS</span>
+                    <span class="nav-ping"></span>
+                </a>
+                <a href="#hobbies" class="nav-item">
+                    <span class="nav-icon"><i class="fas fa-gamepad"></i></span>
+                    <span class="nav-text">HOBBIES</span>
+                    <span class="nav-ping"></span>
+                </a>
+                <a href="#contact" class="nav-item">
+                    <span class="nav-icon"><i class="fas fa-satellite-dish"></i></span>
+                    <span class="nav-text">CONTACT</span>
+                    <span class="nav-ping"></span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- Terminal Intro -->
+        <section class="cyber-terminal">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="terminal-title">ACCESS TERMINAL</div>
+            </div>
+            <div class="terminal-content">
+                <div class="typewriter" id="typewriter">
+                    <p class="command">> whoami</p>
+                    <p class="output">Ikram Caffoor - Cybersecurity Specialist</p>
+                    <br>
+                    <p class="command">> system_status</p>
+                    <p class="output">[✓] Offensive Security [✓] Network Defense [✓] Threat Analysis</p>
+                    <br>
+                    <p class="command">> bio</p>
+                    <p class="output">Cybersecurity enthusiast with focus on red teaming, penetration testing, and CTF challenges. 
+                    Passionate about OSINT, research, and continuous learning in the evolving security landscape. 
+                    Athletic mindset applied to ethical hacking: discipline, strategy, persistence.</p>
+                    <br>
+                    <p class="command">> <span class="cursor">|</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="cyber-section">
+            <div class="section-header">
+                <h2><i class="fas fa-user-secret"></i> ABOUT ME</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-crosshairs"></i>
+                    </div>
+                    <h3>OFFENSIVE SECURITY</h3>
+                    <p>Red teaming, penetration testing, vulnerability assessment through platforms like HackTheBox and TryHackMe.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>DEFENSIVE SECURITY</h3>
+                    <p>Incident response, threat intelligence, SIEM monitoring, and security architecture analysis.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>OSINT & RESEARCH</h3>
+                    <p>Open source intelligence gathering, digital footprint analysis, and threat hunting techniques.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="cyber-section">
+            <div class="section-header">
+                <h2><i class="fas fa-terminal"></i> CORE SKILLS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-card" data-skill="ethical">
+                    <div class="skill-header">
+                        <div class="skill-icons">
+                            <img src="https://img.icons8.com/color/48/000000/kali-linux.png" alt="Kali">
+                            <img src="https://img.icons8.com/color/48/000000/metasploit.png" alt="Metasploit">
+                            <img src="https://img.icons8.com/color/48/000000/nmap.png" alt="Nmap">
+                        </div>
+                        <h3>ETHICAL HACKING</h3>
+                        <span class="skill-level">ADVANCED</span>
+                    </div>
+                    <div class="skill-details">
+                        <p>Kali Linux, Metasploit, Nmap, Wireshark, Burp Suite, vulnerability assessment, exploit development</p>
+                        <div class="skill-progress">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skill-card" data-skill="forensics">
+                    <div class="skill-header">
+                        <div class="skill-icons">
+                            <img src="https://img.icons8.com/color/48/000000/wireshark.png" alt="Wireshark">
+                            <img src="https://img.icons8.com/color/48/000000/autopsy.png" alt="Autopsy">
+                            <img src="https://img.icons8.com/color/48/000000/snort.png" alt="Snort">
+                        </div>
+                        <h3>DIGITAL FORENSICS</h3>
+                        <span class="skill-level">INTERMEDIATE</span>
+                    </div>
+                    <div class="skill-details">
+                        <p>Wireshark, Autopsy, FTK, Volatility, memory analysis, network forensics, incident response</p>
+                        <div class="skill-progress">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="skill-card" data-skill="network">
+                    <div class="skill-header">
+                        <div class="skill-icons">
+                            <img src="https://img.icons8.com/color/48/000000/cisco.png" alt="Cisco">
+                            <img src="https://img.icons8.com/color/48/000000/firewall.png" alt="Firewall">
+                            <img src="https://img.icons8.com/color/48/000000/security-configuration.png" alt="Security">
+                        </div>
+                        <h3>NETWORK SECURITY</h3>
+                        <span class="skill-level">ADVANCED</span>
+                    </div>
+                    <div class="skill-details">
+                        <p>Firewall configuration, IDS/IPS, network segmentation, VPN, secure network architecture</p>
+                        <div class="skill-progress">
+                            <div class="progress-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="skill-card" data-skill="programming">
+                    <div class="skill-header">
+                        <div class="skill-icons">
+                            <img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="C">
+                            <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python">
+                            <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript">
+                        </div>
+                        <h3>PROGRAMMING</h3>
+                        <span class="skill-level">INTERMEDIATE</span>
+                    </div>
+                    <div class="skill-details">
+                        <p>Python, C/C++, JavaScript, Bash, PowerShell, automation scripts, security tools development</p>
+                        <div class="skill-progress">
+                            <div class="progress-fill" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="skill-card" data-skill="websec">
+                    <div class="skill-header">
+                        <div class="skill-icons">
+                            <img src="https://img.icons8.com/color/48/000000/burp-suite.png" alt="Burp">
+                            <img src="https://img.icons8.com/color/48/000000/sql.png" alt="SQL">
+                            <img src="https://img.icons8.com/color/48/000000/owasp.png" alt="OWASP">
+                        </div>
+                        <h3>WEB SECURITY</h3>
+                        <span class="skill-level">ADVANCED</span>
+                    </div>
+                    <div class="skill-details">
+                        <p>OWASP Top 10, SQL injection, XSS, CSRF, Burp Suite, web application testing, API security</p>
+                        <div class="skill-progress">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="cyber-section">
+            <div class="section-header">
+                <h2><i class="fas fa-shield-alt"></i> CERTIFICATIONS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card" data-cert="cyber">
+                    <div class="cert-badge">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Cyber Security & Ethical Hacking</h3>
+                    <p class="cert-issuer">CICRA Campus</p>
+                    <p class="cert-year">2024</p>
+                    <button class="cert-view" data-pdf="portfo/certificates/CamScanner 04-25-2025 18.30.pdf">
+                        VIEW CERTIFICATE
+                    </button>
+                </div>
+                <div class="cert-card" data-cert="linux">
+                    <div class="cert-badge">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Linux 100 Fundamentals</h3>
+                    <p class="cert-issuer">TCM Security</p>
+                    <p class="cert-year">2024</p>
+                    <button class="cert-view" data-pdf="portfo/certificates/1-practical-ethical-hacking-the-complete-course.pdf">
+                        VIEW CERTIFICATE
+                    </button>
+                </div>
+                <div class="cert-card" data-cert="future">
+                    <div class="cert-badge">
+                        <i class="fas fa-question"></i>
+                    </div>
+                    <h3>Coming Soon</h3>
+                    <p class="cert-issuer">In Progress</p>
+                    <p class="cert-year">2025</p>
+                    <button class="cert-view" disabled>
+                        LOCKED
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Write-ups Section -->
+        <section id="writeups" class="cyber-section">
+            <div class="section-header">
+                <h2><i class="fas fa-file-code"></i> WRITE-UPS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="writeups-grid">
+                <div class="writeup-card">
+                    <div class="writeup-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>CTF SOLUTIONS</h3>
+                    <p>Detailed walkthroughs of HackTheBox and TryHackMe challenges.</p>
+                    <div class="writeup-status">
+                        <span class="status-indicator"></span>
+                        IN PROGRESS
+                    </div>
+                </div>
+                <div class="writeup-card">
+                    <div class="writeup-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>VULNERABILITY RESEARCH</h3>
+                    <p>Analysis of CVEs and security advisories with proof-of-concepts.</p>
+                    <div class="writeup-status">
+                        <span class="status-indicator"></span>
+                        COMING SOON
+                    </div>
+                </div>
+                <div class="writeup-card">
+                    <div class="writeup-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>TOOL DEVELOPMENT</h3>
+                    <p>Custom security tools and automation scripts for penetration testing.</p>
+                    <div class="writeup-status">
+                        <span class="status-indicator"></span>
+                        PLANNED
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="cyber-section">
+            <div class="section-header">
+                <h2><i class="fas fa-gamepad"></i> HOBBIES & INTERESTS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="hobbies-tabs">
+                <div class="tabs">
+                    <button class="tab active" data-tab="physical">PHYSICAL</button>
+                    <button class="tab" data-tab="creative">CREATIVE</button>
+                    <button class="tab" data-tab="intellectual">INTELLECTUAL</button>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="physical">
+                        <div class="hobby-item">
+                            <i class="fas fa-futbol"></i>
+                            <div>
+                                <h4>FOOTBALL</h4>
+                                <p>Playing since childhood to maintain physical and mental discipline</p>
+                            </div>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-running"></i>
+                            <div>
+                                <h4>RUNNING & FITNESS</h4>
+                                <p>Sprint and endurance training to improve stamina and focus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="creative">
+                        <div class="hobby-item">
+                            <i class="fas fa-palette"></i>
+                            <div>
+                                <h4>GRAPHIC DESIGN</h4>
+                                <p>Creating security-themed graphics and visual content</p>
+                            </div>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-video"></i>
+                            <div>
+                                <h4>VIDEO EDITING</h4>
+                                <p>Editing cybersecurity tutorials and walkthrough videos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="intellectual">
+                        <div class="hobby-item">
+                            <i class="fas fa-chess"></i>
+                            <div>
+                                <h4>CTF CHALLENGES</h4>
+                                <p>Solving cybersecurity puzzles to enhance problem-solving skills</p>
+                            </div>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <h4>SECURITY RESEARCH</h4>
+                                <p>Reading and analyzing the latest security blogs and papers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="cyber-section">
+            <div class="section-header">
+                <h2><i class="fas fa-satellite-dish"></i> CONTACT ME</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="cyber-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="d6cd5a66-7cf4-4dce-9a43-e2a55138683f">
+                        <input type="hidden" name="subject" value="New Message from Portfolio">
+                        <input type="checkbox" name="botcheck" style="display: none;">
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="name" placeholder="ENTER YOUR NAME" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" name="email" placeholder="ENTER YOUR EMAIL" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-globe"></i>
+                                <select name="country" required>
+                                    <option value="">SELECT COUNTRY</option>
+                                    <!-- Options remain the same -->
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-comment"></i>
+                                <textarea name="message" placeholder="ENTER YOUR MESSAGE" rows="4" required></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="form-buttons">
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i> SEND MESSAGE
+                            </button>
+                            <button type="reset" class="btn-reset">
+                                <i class="fas fa-eraser"></i> CLEAR
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h3>CONNECT WITH ME</h3>
+                    <div class="social-grid">
+                        <a href="https://linkedin.com/in/ikramcafoor" class="social-link linkedin">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://app.hackthebox.com/profile/2143373" class="social-link hackthebox">
+                            <i class="fas fa-terminal"></i>
+                            <span>HackTheBox</span>
+                        </a>
+                        <a href="https://github.com/IkramCaffoor" class="social-link github">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="portfo/images/MY.CV.pdf" class="social-link cv">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"In a world of ones and zeros, security is everything."</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    
+                    <div class="contact-stats">
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Security Mindset</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">CTF Challenges</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="cyber-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">DEDSEC</span>
+                    <span class="logo-subtext">// IKRAM CAFFOOR</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-copy">
+                    &copy; 2024 Ikram Caffoor. All systems secure. | Designed with <i class="fas fa-heart"></i> and coffee.
+                </div>
+                <div class="footer-security">
+                    <span class="security-status">
+                        <i class="fas fa-shield-alt"></i>
+                        <span class="status-text">SECURE CONNECTION</span>
+                        <span class="status-indicator active"></span>
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Certificate Modal -->
+    <div id="certModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>CERTIFICATE VIEWER</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <iframe id="certFrame" src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
 </html>
+
 
 
 
