@@ -1,4 +1,3 @@
-Script · JS
 /* ═══════════════════════════════════════════════════════
    IKRAM CAFFOOR — Portfolio Script
    ═══════════════════════════════════════════════════════ */
@@ -423,7 +422,3 @@ Script · JS
 if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   document.documentElement.style.setProperty('--transition', '0.01ms');
 }
-
-
-
-
