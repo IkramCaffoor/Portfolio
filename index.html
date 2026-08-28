@@ -148,7 +148,7 @@
           <div class="profile-info">
             <div class="profile-row"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>Sri Lanka</span></div>
             <div class="profile-row"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Cybersecurity Learner</span></div>
-            <div class="profile-row"><i class="fab fa-linux" aria-hidden="true"></i><span>Linux Administrator</span></div>
+            <div class="profile-row"><i class="fab fa-linux" aria-hidden="true"></i><span>Linux User</span></div>
             <div class="profile-row"><i class="fas fa-flag" aria-hidden="true"></i><span>CTF Player · HTB · picoCTF</span></div>
           </div>
           <div class="cv-actions">
@@ -519,22 +519,27 @@
       <h2 id="writeups-heading" class="section-title">Write-Ups</h2>
     </div>
 
-    <div class="empty-state" role="status" aria-label="No write-ups yet">
-      <div class="empty-icon" aria-hidden="true">
-        <i class="fas fa-pen-nib"></i>
+    <div class="cert-grid" role="list" aria-label="Write-ups">
+
+      <div class="cert-card" role="listitem">
+        <div class="cert-icon" aria-hidden="true"><i class="fas fa-pen-nib"></i></div>
+        <div class="cert-info">
+          <h4>Write-Up Title Here</h4>
+          <span class="cert-issuer">Platform Name</span>
+          <span class="cert-year">2025</span>
+        </div>
+        <div class="cert-actions">
+          <button class="btn-sm btn-outline view-cert" data-cert="portfo/images/LookUp.pdf" aria-label="View write-up">
+            <i class="fas fa-eye" aria-hidden="true"></i> View
+          </button>
+        </div>
       </div>
-      <h3>Write-Ups Coming Soon</h3>
-      <p>CTF solutions, penetration testing walkthroughs, and cybersecurity research will be published here. Check back soon!</p>
-      <div class="empty-tags" role="list" aria-label="Upcoming topics">
-        <span class="tag" role="listitem">HTB Walkthroughs</span>
-        <span class="tag" role="listitem">picoCTF Solutions</span>
-        <span class="tag" role="listitem">Tool Reviews</span>
-        <span class="tag" role="listitem">Technique Breakdowns</span>
-      </div>
+
+      <!-- duplicate the .cert-card block above for each additional write-up -->
+
     </div>
   </div>
 </section>
-
 <!-- ═══════════════════════════ HOBBIES ═══════════════════════════ -->
 <section id="hobbies" class="section" aria-labelledby="hobbies-heading">
   <div class="container">
